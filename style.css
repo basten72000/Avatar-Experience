@@ -1,0 +1,328 @@
+
+@font-face {
+    font-family: 'Herculanum';
+    src: url('fonts/Herculanum.woff2') format('woff2'),
+        url('fonts/Herculanum.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-color: #2c2c2e;
+    font-family: 'Herculanum';
+    min-height: 100vh;
+}
+header,footer{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+header{
+    padding: 10px;
+    margin-bottom: 100px;
+    border-bottom: solid #fcfcfc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header img{
+    max-width: 50%;
+    position: relative;
+}
+footer{
+    margin-top: 100px;
+    border-top: solid #fcfcfc;
+    padding: 100px;
+    font-family: sans-serif;
+}
+footer a{
+    text-decoration: underline;
+    bottom: 0;
+}
+footer div{
+    width: 500px;
+    margin: 0 auto;
+}
+a,ul{
+    text-decoration: none;
+}
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card{
+    text-align: left;
+    margin: 0 auto;
+    background-color: black;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.card h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#descri-site{
+    max-width: 1000px;
+}
+#descri-site p{
+    color: white;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#livre{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3c4043;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0;
+}
+#livre img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.avatarAnime{
+    justify-content: center;
+}
+.avatarAnime h1{
+    font-size: 40px;
+}
+.avatarAnime h2{
+    font-size: 20px;
+}  
+
+.saisonCard{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.saisonCard img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#s1{
+    background-color: #68a2dc;
+}
+#s2{
+    background-color: #639165;
+}
+#s3{
+    background-color: #cb5d2b;
+}
+
+
+@media screen and (min-width: 1600px) {
+    .avatarAnime{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .avatarAnime .saisonCard{
+        width: 28%;
+        margin: 0 10px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .avatarAnime .saisonCard{
+        width: 70%;
+    }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-chapter{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    position: fixed;
+    margin: 50px;
+    bottom: 0;
+    right: 50px;
+    transition: all 0.05s ease-in-out;
+}
+
+
+
+.nav-button div{
+    width: 50px;
+    height: 50px;
+    bottom: 10%;
+    right: 10%;
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+}
+.nav-button img{
+    width: 100%;
+}
+#previous{
+    transform: rotate(180deg);
+}
+.nav-button div:hover{
+    transform: scale(1.3);
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ep-slider{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.ep-slider #titre{
+    text-align: center;
+}
+
+
+
+.ep-slider #nav{
+    display: flex ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ep-slider #precedent,#suivant{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.ep-slider #precedent{
+    flex-direction: row-reverse;
+}
+.ep-slider #precedent img{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
