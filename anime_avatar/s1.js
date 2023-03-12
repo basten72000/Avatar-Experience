@@ -1,6 +1,5 @@
 document.body.onload=function(){
-    switchvideo("saison 1 episode 1","s1/saison 1 épisode 1.mp4")
-
+    console.log("s1")
 }
 
 

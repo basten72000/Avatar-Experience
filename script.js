@@ -1,5 +1,6 @@
-document.body.onload=function(){
+document.footer.onload=function begin(){
 loadFooter()
+console.log("script")
 
 
 
@@ -13,7 +14,7 @@ function loadFooter(){
 
     inFoot.innerHTML = "<p>Tout le code source ici: <a href="+"https://github.com/basten72000/Avatar-Experience"+">Github.io</a></p>";
      
-
+    
     footer.appendChild(inFoot)
 }
 
