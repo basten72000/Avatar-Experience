@@ -16,11 +16,9 @@ function switchvideo(titre,src){
 
 
 
-function srcswitch(newsrc){
-    var video = document.getElementById("video");
-    var srcvideo = document.getElementById("srcVideo");
-    srcvideo.src=newsrc;
-    video.load();
+function srcswitch(link){
+    var iframe = document.getElementById("link");
+    iframe.src = link
 }
 
 function videotitre(newtitre){
